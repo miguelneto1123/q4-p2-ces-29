@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="20" failures="0" name="ita.cucumber.runners.vulnerableMethodTest" time="0.02" errors="0" skipped="0">
+<testsuite tests="20" failures="0" name="ita.cucumber.runners.vulnerableMethodTest" time="0.029" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2017.1.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -62,23 +62,23 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase classname="Scenario: Opening an existing file that has content" name="Given I have a file in &quot;src/notEmpty.txt&quot;" time="0.004"/>
-  <testcase classname="Scenario: Opening an existing file that has content" name="When it has content" time="0.001"/>
-  <testcase classname="Scenario: Opening an existing file that has content" name="Then its content should be printed" time="0.006"/>
-  <testcase classname="Scenario: Opening an existing file that has content" name="Scenario: Opening an existing file that has content" time="0.006"/>
+  <testcase classname="Scenario: Opening an existing file that has content" name="When it has content" time="0"/>
+  <testcase classname="Scenario: Opening an existing file that has content" name="Then its content should be printed" time="0.005"/>
+  <testcase classname="Scenario: Opening an existing file that has content" name="Scenario: Opening an existing file that has content" time="0.005"/>
   <testcase classname="Scenario: Opening an existing file that has no content" name="Given I have a file in &quot;src/empty.txt&quot;" time="0"/>
-  <testcase classname="Scenario: Opening an existing file that has no content" name="When it has no content" time="0"/>
+  <testcase classname="Scenario: Opening an existing file that has no content" name="When it has no content" time="0.001"/>
   <testcase classname="Scenario: Opening an existing file that has no content" name="Then its content should not be printed" time="0"/>
-  <testcase classname="Scenario: Opening an existing file that has no content" name="Scenario: Opening an existing file that has no content" time="0"/>
-  <testcase classname="Scenario: Trying to open a non-existing file" name="Given I have a file in &quot;src/nonExistant.txt&quot;" time="0"/>
-  <testcase classname="Scenario: Trying to open a non-existing file" name="When it does not exist and I am trying to read it" time="0"/>
+  <testcase classname="Scenario: Opening an existing file that has no content" name="Scenario: Opening an existing file that has no content" time="0.001"/>
+  <testcase classname="Scenario: Trying to open a non-existing file" name="Given I have a file in &quot;src/nonExistant.txt&quot;" time="0.005"/>
+  <testcase classname="Scenario: Trying to open a non-existing file" name="When it does not exist and I am trying to read it" time="0.001"/>
   <testcase classname="Scenario: Trying to open a non-existing file" name="Then it should not work" time="0"/>
-  <testcase classname="Scenario: Trying to open a non-existing file" name="Scenario: Trying to open a non-existing file" time="0"/>
+  <testcase classname="Scenario: Trying to open a non-existing file" name="Scenario: Trying to open a non-existing file" time="0.001"/>
   <testcase classname="Scenario: Trying to append to a file" name="Given I have a file in &quot;src/notEmpty.txt&quot;" time="0"/>
-  <testcase classname="Scenario: Trying to append to a file" name="When I attempt to write on it" time="0"/>
-  <testcase classname="Scenario: Trying to append to a file" name="Then it should work" time="0"/>
-  <testcase classname="Scenario: Trying to append to a file" name="Scenario: Trying to append to a file" time="0"/>
-  <testcase classname="Scenario: Trying to write to a new file" name="Given I have a file in &quot;src/new.txt&quot;" time="0.001"/>
-  <testcase classname="Scenario: Trying to write to a new file" name="When I attempt to write on it" time="0.002"/>
+  <testcase classname="Scenario: Trying to append to a file" name="When I attempt to write on it" time="0.003"/>
+  <testcase classname="Scenario: Trying to append to a file" name="Then it should work" time="0.001"/>
+  <testcase classname="Scenario: Trying to append to a file" name="Scenario: Trying to append to a file" time="0.002"/>
+  <testcase classname="Scenario: Trying to write to a new file" name="Given I have a file in &quot;src/new.txt&quot;" time="0"/>
+  <testcase classname="Scenario: Trying to write to a new file" name="When I attempt to write on it" time="0"/>
   <testcase classname="Scenario: Trying to write to a new file" name="Then it should work" time="0"/>
   <testcase classname="Scenario: Trying to write to a new file" name="Scenario: Trying to write to a new file" time="0"/>
 </testsuite>
